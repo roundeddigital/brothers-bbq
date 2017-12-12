@@ -1,0 +1,777 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Multi-Carrier Shipping Plugin for WooCommerce\n"
+"POT-Creation-Date: 2017-02-16 16:10+0530\n"
+"PO-Revision-Date: 2017-02-16 16:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-multi-carrier-shipping.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: core/advanced-multi-carrier-shipping.php:315
+#: core/class-eha-multi-carrier-shipping-rules-calculator.php:323
+msgid "No Packing Method Found!!"
+msgstr "नहीं पैकिंग तरीका मिल गया !!"
+
+#: core/advanced-multi-carrier-shipping.php:322
+#: core/class-eha-multi-carrier-shipping-rules-calculator.php:330
+msgid "No Rules Applied"
+msgstr "कोई नियम लागू"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:7
+msgid "Shipping Area Management"
+msgstr "शिपिंग क्षेत्र प्रबंधन"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:40
+#: eha-multi-carrier-shipping-common.php:157
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:84
+msgid "Zone matrix:"
+msgstr "जोन मैट्रिक्स:"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:166
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:167
+msgid "Area Name"
+msgstr "क्षेत्र का नाम"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:170
+msgid "List"
+msgstr "सूची"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:171
+msgid "Select list of Zones,Country,State,Postal Code to create a Area"
+msgstr "क्षेत्रों की सूची का चयन करें, देश, राज्य, डाक कोड एक क्षेत्र बनाने के लिए"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:174
+msgid "Country list"
+msgstr "देश सूची"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:175
+msgid "Select list of countries which this rule will be applicable"
+msgstr "देशों की सूची का चयन करें जो इस नियम लागू होगा"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:178
+msgid "State list"
+msgstr "राज्य सूची"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:179
+msgid "Select list of states which this rule will be applicable"
+msgstr "राज्यों की सूची का चयन करें जो इस नियम लागू होगा"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:182
+msgid "Postal code"
+msgstr "डाक कोड"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:183
+msgid ""
+"Post/Zip code for this rule. Semi-colon (;) separate multiple values. Leave "
+"blank to apply to all areas. Wildcards (*) can be used. Ranges for numeric "
+"postcodes (e.g. 12345-12350) will be expanded into individual postcodes."
+msgstr ""
+"इस नियम के लिए पोस्ट / ज़िप कोड। सेमी कॉलन (;) एकाधिक मानों अलग। सभी क्षेत्रों के लिए "
+"लागू करने के लिए खाली छोड़ दें। वाइल्डकार्ड (*) का इस्तेमाल किया जा सकता है। संख्यात्मक "
+"postcodes (जैसे 12345-12350) के लिए श्रेणियों का व्यक्तिगत postcodes में विस्तार किया "
+"जाएगा।"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:191
+msgid "Add"
+msgstr "जोड़ो"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:192
+msgid "Remove"
+msgstr "हटाना"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:193
+msgid "Duplicate"
+msgstr "डुप्लीकेट बनाओ"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:196
+#: core/woocommerce-multi-carrier-shipping-core.php:512
+msgid "Import CSV"
+msgstr "आयात सीएसवी"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:197
+#: core/woocommerce-multi-carrier-shipping-core.php:513
+msgid "Export CSV"
+msgstr "निर्यात सीएसवी"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:67
+msgid "Test Mode"
+msgstr "परीक्षण विधि"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:69
+msgid "Get Rates From Testing Server"
+msgstr "परीक्षण सर्वर से दरों जाओ"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:73
+msgid "Debug"
+msgstr "डीबग करो"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:75
+msgid "Debug this shipping method"
+msgstr "इस शिपिंग विधि डिबग"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:79
+msgid "Enable/Disable"
+msgstr "अक्षम सक्षम"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:81
+msgid "Enable this shipping method"
+msgstr "इस शिपिंग विधि सक्षम करें"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:85
+msgid "Method Title"
+msgstr "विधि शीर्षक"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:87
+msgid "This controls the title which the user sees during checkout."
+msgstr "यह शीर्षक है जो उपयोगकर्ता जांच के दौरान देखता नियंत्रित करता है।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:100
+msgid "Parcel Packing"
+msgstr "पार्सल पैकिंग"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:105
+msgid "Default: Pack items individually"
+msgstr "डिफ़ॉल्ट: पैक आइटम को व्यक्तिगत रूप से"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:106
+msgid "Weight based: Calculate shipping on the basis of order total weight"
+msgstr "भार के आधार पर: आदेश में कुल वजन के आधार पर शिपिंग की गणना"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:110
+msgid "Max Package Weight"
+msgstr "मैक्स पैकेज वजन"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:115
+msgid "Maximum weight allowed for single box."
+msgstr "अधिकतम वजन एक बॉक्स के लिए अनुमति दी।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:118
+msgid "Packing Process"
+msgstr "पैकिंग प्रक्रिया"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:123
+msgid "Pack heavier items first"
+msgstr "पैक भारी सामान पहले"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:124
+msgid "Pack lighter items first."
+msgstr "पैक हल्का आइटम पहले।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:125
+msgid "Pack purely divided by weight."
+msgstr "पैक विशुद्ध रूप से वजन से विभाजित।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:128
+msgid "Select your packing order."
+msgstr "अपनी पैकिंग आदेश का चयन करें।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:131
+msgid "Tax Status"
+msgstr "कर स्थिति"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:136
+msgid "Taxable"
+msgstr "कर योग्य"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:137
+msgid "None"
+msgstr "कुछ नहीं"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:141
+msgid "Fallback Rate"
+msgstr "निवर्तन दर"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:144
+#: core/woocommerce-multi-carrier-shipping-core.php:150
+msgid ""
+"This Cost will be added for every unit of product if no rule is applied on it"
+msgstr ""
+"इस लागत उत्पाद के हर इकाई के लिए जोड़ दिया जाएगा कि अगर कोई नियम उस पर लागू किया "
+"जाता है"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:147
+msgid "Fallback Rate On"
+msgstr "निवर्तन दर पर"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:152
+msgid "Per Unit Weight"
+msgstr "प्रति यूनिट वजन"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:153
+msgid "Per Unit Quantity"
+msgstr "प्रति यूनिट मात्रा"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:159
+msgid "Shipper Settings"
+msgstr "shipper सेटिंग"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:166
+msgid "Origin Address"
+msgstr "उत्पत्ति पता"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:168
+msgid "Shipping Origin address (Ship From address)."
+msgstr "शिपिंग उत्पत्ति पता (पते से जहाज)।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:173
+msgid "Origin City"
+msgstr "उत्पत्ति शहर"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:175
+msgid "Origin City (Ship From City)"
+msgstr "उत्पत्ति शहर (सिटी से जहाज)"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:181
+msgid "Specific Countries"
+msgstr "विशिष्ट देशों"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:189
+msgid "Origin State Code"
+msgstr "उत्पत्ति राज्य कोड"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:191
+msgid ""
+"Specify shipper state province code if state not listed with Origin Country."
+msgstr "shipper राज्य प्रांत कोड निर्दिष्ट करें अगर राज्य मूल देश के साथ सूचीबद्ध नहीं।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:196
+msgid "Origin Postcode"
+msgstr "उत्पत्ति पोस्टकोड"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:198
+msgid "Ship From Zip/postcode."
+msgstr "ज़िप / पिन कोड से जहाज।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:203
+msgid "Your Phone Number"
+msgstr "फोन नंबर"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:205
+msgid "Your contact phone number."
+msgstr "आपका संपर्क फोन नंबर।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:211
+msgid "Fedex Settings"
+msgstr "FedEx सेटिंग"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:216
+msgid "FedEx Account Number"
+msgstr "FedEx खाता संख्या"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:223
+msgid "Fedex Meter Number"
+msgstr "FedEx मीटर संख्या"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:230
+msgid "Fedex Web Services Key"
+msgstr "FedEx वेब सेवा कुंजी"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:240
+msgid "Fedex Web Services Password"
+msgstr "FedEx वेब सेवा पासवर्ड"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:250
+msgid "UPS Settings"
+msgstr "यूपीएस सेटिंग"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:255
+msgid "UPS User ID"
+msgstr "यूपीएस यूजर आईडी"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:257
+#: core/woocommerce-multi-carrier-shipping-core.php:264
+#: core/woocommerce-multi-carrier-shipping-core.php:271
+#: core/woocommerce-multi-carrier-shipping-core.php:278
+msgid "Obtained from UPS after getting an account."
+msgstr "एक खाता मिलने के बाद यूपीएस से प्राप्त की।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:262
+msgid "UPS Password"
+msgstr "यूपीएस पासवर्ड"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:269
+msgid "UPS Access Key"
+msgstr "पुज्ज कीऽ"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:276
+msgid "UPS Account Number"
+msgstr "यूपीएस खाता संख्या"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:283
+msgid "U.S.P.S Settings"
+msgstr "USPS सेटिंग"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:288
+msgid "USPS User ID"
+msgstr "USPS यूजर आईडी"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:290
+#: core/woocommerce-multi-carrier-shipping-core.php:297
+msgid "Obtained from USPS after getting an account."
+msgstr "एक खाता मिलने के बाद USPS से प्राप्त की।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:295
+msgid "USPS Password"
+msgstr "USPS पासवर्ड"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:373
+msgid "Rate matrix:"
+msgstr "दर मैट्रिक्स:"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:462
+msgid "Method title"
+msgstr "विधि खिताब"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:463
+msgid ""
+"Would you like this shipping rule to have its own shipping service name? If "
+"so, please choose a name. Leaving it blank will use Method Title as shipping "
+"service name."
+msgstr ""
+"आप अपनी शिपिंग सेवा का नाम है करने के लिए इस शिपिंग नियम चाहेंगे? यदि हां, तो कृपया एक "
+"नाम का चयन। छोड़कर यह खाली के रूप में शिपिंग सेवा का नाम विधि शीर्षक का प्रयोग करेंगे।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:466
+msgid "area list"
+msgstr "क्षेत्र सूची"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:467
+msgid "You can choose the Areas here once you configured"
+msgstr "तुम क्षेत्रों यहां चुन सकते हैं एक बार जब आप विन्यस्त किया"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:471
+msgid "Shipping class"
+msgstr "शिपिंग वर्ग"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:472
+msgid "Select list of shipping class which this rule will be applicable"
+msgstr "शिपिंग वर्ग की सूची का चयन करें जो इस नियम लागू होगा"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:475
+msgid "Product category"
+msgstr "उत्पाद श्रेणी"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:476
+msgid ""
+"Select list of product category which this rule will be applicable. Only the "
+"product category directly assigned to the products will be considered."
+msgstr ""
+"उत्पाद श्रेणी की सूची का चयन करें जो इस नियम लागू होगा। सीधे उत्पादों को सौंपा केवल "
+"उत्पाद की श्रेणी में विचार किया जाएगा।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:479
+msgid "Based on"
+msgstr "पर आधारित"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:480
+msgid "Shipping rate calculation based on Weight/Item/Price."
+msgstr "नौवहन दर पर वजन / मद / मूल्य आधारित गणना।"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:483
+msgid "Min-Max"
+msgstr "न्यूनतम अधिकतम"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:484
+msgid ""
+"if the min value entered is .25 and the total category/Shipping Class weight "
+"is .24 then this rule will be ignored. if the min value entered is .25 and "
+"the total category/Shipping weight is .26 then this rule will be be "
+"applicable for calculating shipping cost. if the max value entered is .25 "
+"and the total category/Shipping weight is .26 then this rule will be "
+"ignored. if the max value entered is .25 and the total category/Shipping "
+"weight is .25 or .24 then this rule will be be applicable for calculating "
+"shipping cost."
+msgstr ""
+
+#: core/woocommerce-multi-carrier-shipping-core.php:484
+msgid "(Weight,Price,Item Qty)"
+msgstr "(वजन, मूल्य, मात्रा मद)"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:487
+msgid "Cost"
+msgstr "कीमत"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:488
+msgid ""
+"Base/Fixed cost of the shipping irrespective of the weight/item count/price"
+msgstr "शिपिंग के बेस / तय की लागत वजन / मद गिनती / कीमत की परवाह किए बगैर"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:488
+msgid "(Flat Rate)"
+msgstr "(फ्लैट रेट)"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:491
+msgid "Shipping Option"
+msgstr "शिपिंग विकल्प"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:492
+msgid "Select Shipping Company"
+msgstr "शिपिंग कंपनी का चयन"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:495
+msgid "Service"
+msgstr "सेवा"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:496
+msgid "Select Service of Selected Shipping Company"
+msgstr "को चयनित शिपिंग कंपनी की सेवा का चयन"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:507
+msgid "Add rule"
+msgstr "नियम जोड़ो"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:508
+msgid "Remove rule(es)"
+msgstr "नियम निकालें (ते)"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:509
+msgid "Duplicate rule(es)"
+msgstr "डुप्लीकेट नियम (ते)"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:513
+msgid "Weight Unit & Dimensions Unit as per WooCommerce settings."
+msgstr "वजन यूनिट और आयाम यूनिट WooCommerce सेटिंग्स के अनुसार।"
+
+#: eha-multi-carrier-shipping-common.php:158
+msgid "Table rate zone"
+msgstr "टेबल दर क्षेत्र"
+
+#: eha-multi-carrier-shipping-common.php:159
+msgid "Documentation"
+msgstr "दस्तावेजीकरण"
+
+#: eha-multi-carrier-shipping-common.php:160
+msgid "Support"
+msgstr "समर्थन"
+
+#: includes/class-eha-admin-importers.php:23
+#: includes/class-eha-admin-importers.php:25
+msgid "Multi Carrier Shipping Rate Matrix (CSV)"
+msgstr "बहु वाहक नौवहन दर मैट्रिक्स (CSV)"
+
+#: includes/class-eha-admin-importers.php:23
+#: includes/class-eha-admin-importers.php:25
+msgid ""
+"Import <strong>Multi Carrier Shipping Rate Matrix</strong> to your store via "
+"a csv file."
+msgstr ""
+"एक सीएसवी फ़ाइल के माध्यम से अपनी दुकान के लिए आयात <strong>बहु वाहक नौवहन दर "
+"मैट्रिक्स।</strong>"
+
+#: includes/class-eha-rate-matrix-importer.php:95
+#: includes/class-eha-rate-matrix-importer.php:139
+#: includes/class-eha-rate-matrix-importer.php:179
+#: includes/class-eha-rate-matrix-importer.php:194
+#: includes/class-eha-zone-matrix-importer.php:95
+#: includes/class-eha-zone-matrix-importer.php:133
+#: includes/class-eha-zone-matrix-importer.php:173
+#: includes/class-eha-zone-matrix-importer.php:188
+msgid "Sorry, there has been an error."
+msgstr "एक त्रुटि हुई है"
+
+#: includes/class-eha-rate-matrix-importer.php:96
+#: includes/class-eha-zone-matrix-importer.php:96
+msgid "The file does not exist, please try again."
+msgstr "फ़ाइल मौजूद नहीं है, पुन: प्रयास करें।"
+
+#: includes/class-eha-rate-matrix-importer.php:140
+#: includes/class-eha-zone-matrix-importer.php:134
+msgid "The CSV is invalid."
+msgstr "सीएसवी अमान्य है।"
+
+#: includes/class-eha-rate-matrix-importer.php:151
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> Rate Matrix Rules and skipped "
+"<strong>%s</strong>."
+msgstr ""
+"आयात पूरा <strong>-%s</strong> दर मैट्रिक्स नियम आयातित <strong>और%s</strong> को "
+"छोड़ दिया।"
+
+#: includes/class-eha-rate-matrix-importer.php:161
+#: includes/class-eha-zone-matrix-importer.php:155
+msgid "All done!"
+msgstr "सब कुछ कर दिया!"
+
+#: includes/class-eha-rate-matrix-importer.php:161
+msgid "View Rate Matrix"
+msgstr "देखें दर मैट्रिक्स"
+
+#: includes/class-eha-rate-matrix-importer.php:209
+msgid "Import Multi Carrier Shipping Rate Matrix"
+msgstr "आयात बहु वाहक नौवहन दर मैट्रिक्स"
+
+#: includes/class-eha-rate-matrix-importer.php:225
+msgid ""
+"Hi there! Upload a CSV file containing Multi Carrier Shipping Rate Matrix to "
+"import the contents into your shop. Choose a .csv file to upload, then click "
+"\"Upload file and import\"."
+msgstr ""
+"नमस्ते! अपनी दुकान में सामग्री आयात करने के लिए बहु वाहक नौवहन दर मैट्रिक्स युक्त एक "
+"सीएसवी फ़ाइल अपलोड करें। अपलोड करने के लिए एक .csv फ़ाइल चुनें, तो क्लिक करें \"फ़ाइल "
+"अपलोड करें और आयात\"।"
+
+#: includes/class-eha-rate-matrix-importer.php:227
+#, php-format
+msgid ""
+"Multi Carrier Shipping Rate Matrix need to be defined with columns in a "
+"specific order (18 columns). <a href=\"%s\">Click here to download a sample</"
+"a>."
+msgstr ""
+"बहु वाहक नौवहन दर मैट्रिक्स एक विशेष आदेश (18 कॉलम) में कॉलम के साथ परिभाषित किए जाने "
+"की जरूरत है। <a href=\"%s\">एक नमूना डाउनलोड करने के लिए यहां क्लिक करें</a> ।"
+
+#: includes/class-eha-rate-matrix-importer.php:235
+#: includes/class-eha-zone-matrix-importer.php:229
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+"इससे पहले कि आप अपने आयात फ़ाइल अपलोड कर सकते हैं, तो आपको निम्न त्रुटि को ठीक करने की "
+"आवश्यकता होगी:"
+
+#: includes/class-eha-rate-matrix-importer.php:244
+#: includes/class-eha-zone-matrix-importer.php:238
+msgid "Choose a file from your computer:"
+msgstr "अपने कंप्यूटर से एक फ़ाइल चुनें:"
+
+#: includes/class-eha-rate-matrix-importer.php:250
+#: includes/class-eha-zone-matrix-importer.php:244
+#, php-format
+msgid "Maximum size: %s"
+msgstr "अधिकतम आकार:%s"
+
+#: includes/class-eha-rate-matrix-importer.php:255
+#: includes/class-eha-zone-matrix-importer.php:249
+msgid "OR enter path to file:"
+msgstr "या फ़ाइल के लिए पथ दर्ज करें:"
+
+#: includes/class-eha-rate-matrix-importer.php:262
+#: includes/class-eha-zone-matrix-importer.php:256
+msgid "Delimiter"
+msgstr "सीमान्तक"
+
+#: includes/class-eha-rate-matrix-importer.php:268
+#: includes/class-eha-zone-matrix-importer.php:262
+msgid "Upload file and import"
+msgstr "फ़ाइल और आयात अपलोड"
+
+#: includes/class-eha-zone-matrix-importer.php:145
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> zone Matrix Rules and skipped "
+"<strong>%s</strong>."
+msgstr ""
+"आयात पूरा <strong>-%s</strong> क्षेत्र मैट्रिक्स नियम आयातित <strong>और%s</strong> "
+"को छोड़ दिया।"
+
+#: includes/class-eha-zone-matrix-importer.php:155
+msgid "View zone Matrix"
+msgstr "देखें जोन मैट्रिक्स"
+
+#: includes/class-eha-zone-matrix-importer.php:203
+msgid "Import Multi Carrier Shipping zone Matrix"
+msgstr "आयात बहु वाहक पोत परिवहन क्षेत्र मैट्रिक्स"
+
+#: includes/class-eha-zone-matrix-importer.php:219
+msgid ""
+"Hi there! Upload a CSV file containing Multi Carrier Shipping zone Matrix to "
+"import the contents into your shop. Choose a .csv file to upload, then click "
+"\"Upload file and import\"."
+msgstr ""
+"नमस्ते! अपनी दुकान में सामग्री आयात करने के लिए बहु वाहक पोत परिवहन क्षेत्र मैट्रिक्स युक्त "
+"एक सीएसवी फ़ाइल अपलोड करें। अपलोड करने के लिए एक .csv फ़ाइल चुनें, तो क्लिक करें \"फ़ाइल "
+"अपलोड करें और आयात\"।"
+
+#: includes/class-eha-zone-matrix-importer.php:221
+#, php-format
+msgid ""
+"Multi Carrier Shipping zone Matrix need to be defined with columns in a "
+"specific order (4 columns). <a href=\"%s\">Click here to download a sample</"
+"a>."
+msgstr ""
+"बहु वाहक पोत परिवहन क्षेत्र मैट्रिक्स एक विशेष आदेश (4 कॉलम) में कॉलम के साथ परिभाषित "
+"किए जाने की जरूरत है। <a href=\"%s\">एक नमूना डाउनलोड करने के लिए यहां क्लिक करें</a> ।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:373
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s के लिए लाइसेंस कुंजी समाप्त हो गया है। आप को पुन: सक्रिय करने या अपने खाते से एक लाइसेंस "
+"कुंजी खरीद सकते हैं <a href=\"%s\" target=\"_blank\">डैशबोर्ड</a> ।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s के लिए सदस्यता पर पकड़ है। आप अपने खाते से सदस्यता सक्रिय कर सकते हैं <a href=\"%s\" "
+"target=\"_blank\">डैशबोर्ड</a> ।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"%s के लिए सदस्यता रद्द कर दिया गया है। आप अपने खाते से सदस्यता को नवीनीकृत कर सकते हैं "
+"<a href=\"%s\" target=\"_blank\">डैशबोर्ड</a> । अपने आदेश पूरा हो गया है के बाद एक "
+"नया लाइसेंस कुंजी आपको ईमेल कर दी जाएगी।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s के लिए सदस्यता समाप्त हो गया है। आप अपने खाते से सदस्यता सक्रिय कर सकते हैं <a href="
+"\"%s\" target=\"_blank\">डैशबोर्ड</a> ।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"%s के लिए सदस्यता को निलंबित कर दिया गया है। आप अपने खाते से सदस्यता सक्रिय कर सकते हैं "
+"<a href=\"%s\" target=\"_blank\">डैशबोर्ड</a> ।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"%s के लिए सदस्यता के लिए अभी भी लंबित है। आप अपने खाते से सदस्यता की स्थिति पर जाँच कर "
+"सकते हैं <a href=\"%s\" target=\"_blank\">डैशबोर्ड</a> ।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s के लिए सदस्यता के कचरे में रखा गया है और जल्द ही हटा दिया जाएगा। आप अपने खाते से एक "
+"नई सदस्यता खरीद कर सकते हैं <a href=\"%s\" target=\"_blank\">डैशबोर्ड</a> ।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s के लिए एक सदस्यता नहीं पाया जा सका। आप अपने खाते से एक सदस्यता खरीद कर सकते हैं <a "
+"href=\"%s\" target=\"_blank\">डैशबोर्ड</a> ।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:461
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"%s के लिए एक लाइसेंस कुंजी नहीं पाया जा सका। हो सकता है कि आप जब%s की स्थापना, या "
+"कुंजी अपने खाते में कुकीज़ को निष्क्रिय कर दिया गया था एक लाइसेंस कुंजी दर्ज करने के लिए भूल "
+"गया। आप अपने प्लगइन पर लाइसेंस कुंजी को पुन: सक्रिय कर सकते हैं <a href=\"%s\" target="
+"\"_blank\">सेटिंग्स पेज</a> ।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:472
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s के लिए डाउनलोड की अनुमति के लिए एक लाइसेंस कुंजी या सदस्यता अवसान हो रहा है के कारण "
+"संभवतः रद्द कर दिया गया। आप को पुन: सक्रिय करने या अपने खाते से एक लाइसेंस कुंजी खरीद "
+"सकते हैं <a href=\"%s\" target=\"_blank\">डैशबोर्ड</a> ।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:483
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"%s सक्रिय नहीं किया गया। प्लगइन करने के लिए जाओ <a href=\"%s\" target=\"_blank"
+"\">सेटिंग्स पेज</a> और लाइसेंस कुंजी और लाइसेंस ईमेल%s सक्रिय करने के लिए दर्ज करें।"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:494
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"आपको%s के लिए सदस्यता बदल गया है, ताकि आप सेटिंग पृष्ठ में अपने नए एपीआई लाइसेंस कुंजी दर्ज "
+"करने की आवश्यकता होगी। लाइसेंस कुंजी, आपके ईमेल इनबॉक्स में आ जाना चाहिए नहीं तो आप इसे "
+"अपने खाते में प्रवेश करके प्राप्त कर सकते हैं <a href=\"%s\" target=\"_blank\">डैशबोर्ड</"
+"a> ।"
+
+#: woocommerce-multi-carrier-shipping.php:25
+msgid "Multi Carrier Shipping"
+msgstr "बहु वाहक पोत"
+
+#: woocommerce-multi-carrier-shipping.php:26
+msgid ""
+"Intuitive Rule Based Shipping Plug-in for WooCommerce. Set shipping rates "
+"based on rules based by Country, State, Post Code, Product Category,Shipping "
+"Class and Weight."
+msgstr ""
+"सहज ज्ञान युक्त नियम आधारित नौवहन प्लग में WooCommerce के लिए। शिपिंग दरों सेट देश, "
+"राज्य, पोस्ट कोड, उत्पाद श्रेणी, शिपिंग कक्षा और वजन द्वारा आधारित नियमों के आधार पर।"
+
+#. Plugin Name of the plugin/theme
+msgid "Multi-Carrier Shipping Plugin for WooCommerce"
+msgstr "मल्टी कैरियर शिपिंग WooCommerce के लिए प्लगइन"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.xadapter.com/product/woocommerce-table-rate-multi-carrier-"
+"shipping-plugin/"
+msgstr ""
+"https://www.xadapter.com/product/woocommerce-table-rate-multi-carrier-"
+"shipping-plugin/"
+
+#. Description of the plugin/theme
+msgid ""
+"Intuitive Rule Based Multi-Carrier Shipping Plugin for WooCommerce. Set "
+"shipping rates based on rules based by Country, State, Post Code, Product "
+"Category,Shipping Class ,Weight , Shipping Company and Shipping Service."
+msgstr ""
+"सहज ज्ञान युक्त नियम WooCommerce के लिए आधारित बहु-वाहक पोत परिवहन प्लगइन। शिपिंग "
+"दरों सेट देश, राज्य, पोस्ट कोड, उत्पाद श्रेणी, शिपिंग क्लास, वजन, शिपिंग कंपनी और शिपिंग "
+"सेवा द्वारा आधारित नियमों के आधार पर।"
+
+#. Author of the plugin/theme
+msgid "ExtensionHawk"
+msgstr "ExtensionHawk"
+
+#. Author URI of the plugin/theme
+msgid "https://www.xadapter.com/vendor/extensionhawk/"
+msgstr "https://www.xadapter.com/vendor/extensionhawk/"

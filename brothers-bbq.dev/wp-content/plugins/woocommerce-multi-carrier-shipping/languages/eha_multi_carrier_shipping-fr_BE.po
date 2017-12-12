@@ -1,0 +1,812 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Multi-Carrier Shipping Plugin for WooCommerce\n"
+"POT-Creation-Date: 2017-02-16 16:08+0530\n"
+"PO-Revision-Date: 2017-02-16 16:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_BE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-multi-carrier-shipping.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: core/advanced-multi-carrier-shipping.php:315
+#: core/class-eha-multi-carrier-shipping-rules-calculator.php:323
+msgid "No Packing Method Found!!"
+msgstr "Aucune méthode d’emballage trouvé !!"
+
+#: core/advanced-multi-carrier-shipping.php:322
+#: core/class-eha-multi-carrier-shipping-rules-calculator.php:330
+msgid "No Rules Applied"
+msgstr "Aucune règle appliquée"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:7
+msgid "Shipping Area Management"
+msgstr "Gestion des zones d’expédition"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:40
+#: eha-multi-carrier-shipping-common.php:157
+msgid "Settings"
+msgstr "Paramètres"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:84
+msgid "Zone matrix:"
+msgstr "matrice Zone:"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:166
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:167
+msgid "Area Name"
+msgstr "Nom de la zone"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:170
+msgid "List"
+msgstr "Liste"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:171
+msgid "Select list of Zones,Country,State,Postal Code to create a Area"
+msgstr ""
+"Liste des Zones, pays, État, Code Postal, de créer une zone de sélection"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:174
+msgid "Country list"
+msgstr "Liste des pays"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:175
+msgid "Select list of countries which this rule will be applicable"
+msgstr "Sélectionnez la liste des pays dont cette règle sera applicable"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:178
+msgid "State list"
+msgstr "Liste d'État"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:179
+msgid "Select list of states which this rule will be applicable"
+msgstr "Sélectionnez la liste des Etats qui cette règle sera applicable"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:182
+msgid "Postal code"
+msgstr "Code postal"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:183
+msgid ""
+"Post/Zip code for this rule. Semi-colon (;) separate multiple values. Leave "
+"blank to apply to all areas. Wildcards (*) can be used. Ranges for numeric "
+"postcodes (e.g. 12345-12350) will be expanded into individual postcodes."
+msgstr ""
+"Code postal pour cette règle. Le point virgule (;) sépare les valeurs "
+"multiples. Laisser vide pour l&rsquo;appliquer à toutes les zones. Les "
+"caractères génériques (*) peuvent être utilisés. Les gammes de codes postaux "
+"(ex. 77000-77990) seront converties en codes postaux individuels."
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:191
+msgid "Add"
+msgstr "Ajouter"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:192
+msgid "Remove"
+msgstr "Supprimer"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:193
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:196
+#: core/woocommerce-multi-carrier-shipping-core.php:512
+msgid "Import CSV"
+msgstr "Importer CSV"
+
+#: core/eha-woocommerce-multi-carrier-shipping-area.php:197
+#: core/woocommerce-multi-carrier-shipping-core.php:513
+msgid "Export CSV"
+msgstr "Export CSV"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:67
+msgid "Test Mode"
+msgstr "Mode test"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:69
+msgid "Get Rates From Testing Server"
+msgstr "Obtenir des taux de test serveur"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:73
+msgid "Debug"
+msgstr "Debuggen"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:75
+msgid "Debug this shipping method"
+msgstr "Déboguer ce mode de livraison"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:79
+msgid "Enable/Disable"
+msgstr "Activer / Désactiver"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:81
+msgid "Enable this shipping method"
+msgstr "Activer ce mode de livraison"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:85
+msgid "Method Title"
+msgstr "Metodo Titolo"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:87
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+"Libellé sous lequel le paiement via Payline est proposé à l’acheteur dans le "
+"processus de commande."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:100
+msgid "Parcel Packing"
+msgstr "Parcel Emballage"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:105
+msgid "Default: Pack items individually"
+msgstr "Par défaut: articles Paquet individuel"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:106
+msgid "Weight based: Calculate shipping on the basis of order total weight"
+msgstr "Poids basé: Calculer expédition sur la base de l'ordre poids total"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:110
+msgid "Max Package Weight"
+msgstr "Poids de l'emballage"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:115
+msgid "Maximum weight allowed for single box."
+msgstr "Le poids maximum autorisé pour seule boîte."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:118
+msgid "Packing Process"
+msgstr "procédé d'emballage"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:123
+msgid "Pack heavier items first"
+msgstr "Emballez les articles plus lourds premier"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:124
+msgid "Pack lighter items first."
+msgstr "Emballez les objets légers en premier."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:125
+msgid "Pack purely divided by weight."
+msgstr "Emballez purement divisé par le poids."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:128
+msgid "Select your packing order."
+msgstr "Sélectionnez votre commande d'emballage."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:131
+msgid "Tax Status"
+msgstr "Taxe fiscale"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:136
+msgid "Taxable"
+msgstr "Imponibile"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:137
+msgid "None"
+msgstr "Aucun"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:141
+msgid "Fallback Rate"
+msgstr "Retrait"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:144
+#: core/woocommerce-multi-carrier-shipping-core.php:150
+msgid ""
+"This Cost will be added for every unit of product if no rule is applied on it"
+msgstr ""
+"Ce coût sera ajouté pour chaque unité de produit si aucune règle n’est "
+"appliquée à ce sujet"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:147
+msgid "Fallback Rate On"
+msgstr "Taux de secours"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:152
+msgid "Per Unit Weight"
+msgstr "par unité de poids"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:153
+msgid "Per Unit Quantity"
+msgstr "Par unité de quantité"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:159
+msgid "Shipper Settings"
+msgstr "Paramètres de l’expéditeur"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:166
+msgid "Origin Address"
+msgstr "Adresse d’origine"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:168
+msgid "Shipping Origin address (Ship From address)."
+msgstr "Adresse d'origine d'expédition (Ship From adresse)."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:173
+msgid "Origin City"
+msgstr "Ville d'origine"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:175
+msgid "Origin City (Ship From City)"
+msgstr "Ville d'origine (Ship From City)"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:181
+msgid "Specific Countries"
+msgstr "Paesi specifici"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:189
+msgid "Origin State Code"
+msgstr "Origine code de l'État"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:191
+msgid ""
+"Specify shipper state province code if state not listed with Origin Country."
+msgstr ""
+"Spécifiez l'expéditeur code de la province de l'État si l'État ne figure pas "
+"avec Pays d'origine."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:196
+msgid "Origin Postcode"
+msgstr "Code postal d'origine"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:198
+msgid "Ship From Zip/postcode."
+msgstr "Navire De Zip / code postal."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:203
+msgid "Your Phone Number"
+msgstr "Votre Téléphone"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:205
+msgid "Your contact phone number."
+msgstr "Téléphone du contact"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:211
+msgid "Fedex Settings"
+msgstr "Paramètres de FedEx"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:216
+msgid "FedEx Account Number"
+msgstr "Numéro de compte FedEx"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:223
+msgid "Fedex Meter Number"
+msgstr "Numéro de compteur de FedEx"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:230
+msgid "Fedex Web Services Key"
+msgstr "Clé de Services Web de FedEx"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:240
+msgid "Fedex Web Services Password"
+msgstr "Mot de passe FedEx Web Services"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:250
+msgid "UPS Settings"
+msgstr "Paramètres de l’ASI"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:255
+msgid "UPS User ID"
+msgstr "ID Utilisateur"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:257
+#: core/woocommerce-multi-carrier-shipping-core.php:264
+#: core/woocommerce-multi-carrier-shipping-core.php:271
+#: core/woocommerce-multi-carrier-shipping-core.php:278
+msgid "Obtained from UPS after getting an account."
+msgstr "Obtenu à partir de UPS après avoir un compte."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:262
+msgid "UPS Password"
+msgstr "Mot de passe"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:269
+msgid "UPS Access Key"
+msgstr "Clé d'accès"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:276
+msgid "UPS Account Number"
+msgstr "Numéro de compte"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:283
+msgid "U.S.P.S Settings"
+msgstr "Paramètres de U.S.P.S"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:288
+msgid "USPS User ID"
+msgstr "ID Utilisateur"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:290
+#: core/woocommerce-multi-carrier-shipping-core.php:297
+msgid "Obtained from USPS after getting an account."
+msgstr "Obtenu de USPS après l’obtention d’un compte."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:295
+msgid "USPS Password"
+msgstr "Mot de passe"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:373
+msgid "Rate matrix:"
+msgstr "Matrice de taux :"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:462
+msgid "Method title"
+msgstr "Metodo Titolo"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:463
+msgid ""
+"Would you like this shipping rule to have its own shipping service name? If "
+"so, please choose a name. Leaving it blank will use Method Title as shipping "
+"service name."
+msgstr ""
+"Vous voulez cette règle expédition d’avoir sa propre appellation "
+"réglementaire de service ? Dans l’affirmative, veuillez choisir un nom. "
+"Laisser vide utilisera la méthode titre comme appellation réglementaire de "
+"service."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:466
+msgid "area list"
+msgstr "liste de la zone"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:467
+msgid "You can choose the Areas here once you configured"
+msgstr "Une fois que vous avez configuré, vous pouvez choisir les domaines ici"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:471
+msgid "Shipping class"
+msgstr "classe spedizione"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:472
+msgid "Select list of shipping class which this rule will be applicable"
+msgstr ""
+"Sélectionnez la liste de la classe d'expédition qui cette règle sera "
+"applicable"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:475
+msgid "Product category"
+msgstr "Catégorie de produit"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:476
+msgid ""
+"Select list of product category which this rule will be applicable. Only the "
+"product category directly assigned to the products will be considered."
+msgstr ""
+"Sélectionnez la liste des catégories de produits qui cette règle sera "
+"applicable. Seule la catégorie de produit directement attribué aux produits "
+"sera considérée."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:479
+msgid "Based on"
+msgstr "Basé sur"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:480
+msgid "Shipping rate calculation based on Weight/Item/Price."
+msgstr "Taux de livraison calcul basé sur le poids / article / Prix."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:483
+msgid "Min-Max"
+msgstr "Min-Max"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:484
+msgid ""
+"if the min value entered is .25 and the total category/Shipping Class weight "
+"is .24 then this rule will be ignored. if the min value entered is .25 and "
+"the total category/Shipping weight is .26 then this rule will be be "
+"applicable for calculating shipping cost. if the max value entered is .25 "
+"and the total category/Shipping weight is .26 then this rule will be "
+"ignored. if the max value entered is .25 and the total category/Shipping "
+"weight is .25 or .24 then this rule will be be applicable for calculating "
+"shipping cost."
+msgstr ""
+"Si la valeur minimale saisie est .25 et que la catégorie totale / le poids "
+"de la classe d'expédition est .24, cette règle sera ignorée. Si la valeur "
+"minimale saisie est 0,25 et que la catégorie totale / Poids à l'expédition "
+"est de 0,26, cette règle sera applicable au calcul des frais de port. Si la "
+"valeur maximale saisie est 0,25 et que la catégorie totale / poids "
+"d'expédition est 0,26, cette règle sera ignorée. Si la valeur maximale "
+"saisie est 0,25 et que la catégorie totale / Poids à l'expédition est de "
+"0,25 ou 0,24, cette règle sera applicable au calcul des frais de transport."
+
+#: core/woocommerce-multi-carrier-shipping-core.php:484
+msgid "(Weight,Price,Item Qty)"
+msgstr "(Poids, prix, Item Qté)"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:487
+msgid "Cost"
+msgstr "Heures"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:488
+msgid ""
+"Base/Fixed cost of the shipping irrespective of the weight/item count/price"
+msgstr ""
+"Base / coût fixe de l'expédition indépendamment du poids / nombre "
+"d'éléments / prix"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:488
+msgid "(Flat Rate)"
+msgstr "Forfaitaire"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:491
+msgid "Shipping Option"
+msgstr "option de livraison"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:492
+msgid "Select Shipping Company"
+msgstr "Compagnie de navigation sélectionnez"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:495
+msgid "Service"
+msgstr "Service"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:496
+msgid "Select Service of Selected Shipping Company"
+msgstr "Sélectionnez le Service de la société d’expédition sélectionnée"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:507
+msgid "Add rule"
+msgstr "Ajouter règle"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:508
+msgid "Remove rule(es)"
+msgstr "Supprimer rule(es)"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:509
+msgid "Duplicate rule(es)"
+msgstr "Rule(es) en double"
+
+#: core/woocommerce-multi-carrier-shipping-core.php:513
+msgid "Weight Unit & Dimensions Unit as per WooCommerce settings."
+msgstr "Poids unité & Dimensions unité selon les paramètres de WooCommerce."
+
+#: eha-multi-carrier-shipping-common.php:158
+msgid "Table rate zone"
+msgstr "Tableau de taux"
+
+#: eha-multi-carrier-shipping-common.php:159
+msgid "Documentation"
+msgstr "Documentation"
+
+#: eha-multi-carrier-shipping-common.php:160
+msgid "Support"
+msgstr "Support"
+
+#: includes/class-eha-admin-importers.php:23
+#: includes/class-eha-admin-importers.php:25
+msgid "Multi Carrier Shipping Rate Matrix (CSV)"
+msgstr "Support multi expédition taux Matrix (CSV)"
+
+#: includes/class-eha-admin-importers.php:23
+#: includes/class-eha-admin-importers.php:25
+msgid ""
+"Import <strong>Multi Carrier Shipping Rate Matrix</strong> to your store via "
+"a csv file."
+msgstr ""
+"Importer <strong>Multi transporteur expédition taux Matrix</strong> à votre "
+"boutique via un fichier csv."
+
+#: includes/class-eha-rate-matrix-importer.php:95
+#: includes/class-eha-rate-matrix-importer.php:139
+#: includes/class-eha-rate-matrix-importer.php:179
+#: includes/class-eha-rate-matrix-importer.php:194
+#: includes/class-eha-zone-matrix-importer.php:95
+#: includes/class-eha-zone-matrix-importer.php:133
+#: includes/class-eha-zone-matrix-importer.php:173
+#: includes/class-eha-zone-matrix-importer.php:188
+msgid "Sorry, there has been an error."
+msgstr "Désolé, une erreur s'est produite."
+
+#: includes/class-eha-rate-matrix-importer.php:96
+#: includes/class-eha-zone-matrix-importer.php:96
+msgid "The file does not exist, please try again."
+msgstr "Le fichier n'existe pas, s'il vous plait essayez encore."
+
+#: includes/class-eha-rate-matrix-importer.php:140
+#: includes/class-eha-zone-matrix-importer.php:134
+msgid "The CSV is invalid."
+msgstr "Le CSV est invalide."
+
+#: includes/class-eha-rate-matrix-importer.php:151
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> Rate Matrix Rules and skipped "
+"<strong>%s</strong>."
+msgstr ""
+"Importation complète - importée Taux Matrice Règles <strong>%s</strong> Rate "
+"Matrix Rules et sauté <strong>%s.</strong>"
+
+#: includes/class-eha-rate-matrix-importer.php:161
+#: includes/class-eha-zone-matrix-importer.php:155
+msgid "All done!"
+msgstr "Tout est fait&nbsp;!"
+
+#: includes/class-eha-rate-matrix-importer.php:161
+msgid "View Rate Matrix"
+msgstr "Vue sur la matrice"
+
+#: includes/class-eha-rate-matrix-importer.php:209
+msgid "Import Multi Carrier Shipping Rate Matrix"
+msgstr "Importation multi porteuse d'expédition Taux Matrice"
+
+#: includes/class-eha-rate-matrix-importer.php:225
+msgid ""
+"Hi there! Upload a CSV file containing Multi Carrier Shipping Rate Matrix to "
+"import the contents into your shop. Choose a .csv file to upload, then click "
+"\"Upload file and import\"."
+msgstr ""
+"Salut ! Télécharger un fichier CSV contenant Advanced Multi transporteur "
+"expédition taux Matrix pour importer le contenu dans votre boutique. "
+"Choisissez un fichier .csv à télécharger, puis cliquez sur « Upload file et "
+"importation »."
+
+#: includes/class-eha-rate-matrix-importer.php:227
+#, php-format
+msgid ""
+"Multi Carrier Shipping Rate Matrix need to be defined with columns in a "
+"specific order (18 columns). <a href=\"%s\">Click here to download a sample</"
+"a>."
+msgstr ""
+"Multi transporteur expédition taux Matrix doivent être définis avec des "
+"colonnes dans un ordre spécifique (18 colonnes). <a href=\"%s\">Cliquez ici "
+"pour télécharger un échantillon</a>."
+
+#: includes/class-eha-rate-matrix-importer.php:235
+#: includes/class-eha-zone-matrix-importer.php:229
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+"Avant de pouvoir transférer votre fichier d'importation, vous devez corriger "
+"les erreurs suivantes:"
+
+#: includes/class-eha-rate-matrix-importer.php:244
+#: includes/class-eha-zone-matrix-importer.php:238
+msgid "Choose a file from your computer:"
+msgstr "Choisir un fichier depuis votre ordinateur&nbsp;:"
+
+#: includes/class-eha-rate-matrix-importer.php:250
+#: includes/class-eha-zone-matrix-importer.php:244
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Taille maximum&nbsp;: %s"
+
+#: includes/class-eha-rate-matrix-importer.php:255
+#: includes/class-eha-zone-matrix-importer.php:249
+msgid "OR enter path to file:"
+msgstr "OU entrez le chemin du fichier&nbsp;:"
+
+#: includes/class-eha-rate-matrix-importer.php:262
+#: includes/class-eha-zone-matrix-importer.php:256
+msgid "Delimiter"
+msgstr "Délimiteur"
+
+#: includes/class-eha-rate-matrix-importer.php:268
+#: includes/class-eha-zone-matrix-importer.php:262
+msgid "Upload file and import"
+msgstr "Importer un fichier"
+
+#: includes/class-eha-zone-matrix-importer.php:145
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> zone Matrix Rules and skipped "
+"<strong>%s</strong>."
+msgstr ""
+"Importation complète - importé la <strong>%s</strong> Zone Matrix Rules et "
+"sauté <strong>%s.</strong>"
+
+#: includes/class-eha-zone-matrix-importer.php:155
+msgid "View zone Matrix"
+msgstr "Voir zone Matrice"
+
+#: includes/class-eha-zone-matrix-importer.php:203
+msgid "Import Multi Carrier Shipping zone Matrix"
+msgstr "Zone de Multi transporteur maritime Import Matrix"
+
+#: includes/class-eha-zone-matrix-importer.php:219
+msgid ""
+"Hi there! Upload a CSV file containing Multi Carrier Shipping zone Matrix to "
+"import the contents into your shop. Choose a .csv file to upload, then click "
+"\"Upload file and import\"."
+msgstr ""
+"Bonjour ! Transférez un fichier CSV contenant les taux de taxes à importer "
+"les contenus dans votre boutique. Choisissez un fichier .csv à transférer, "
+"puis cliquez \"Envoyer le fichier et l'importer\"."
+
+#: includes/class-eha-zone-matrix-importer.php:221
+#, php-format
+msgid ""
+"Multi Carrier Shipping zone Matrix need to be defined with columns in a "
+"specific order (4 columns). <a href=\"%s\">Click here to download a sample</"
+"a>."
+msgstr ""
+"Zone multi transporteur livraison matrice doivent être définis avec des "
+"colonnes dans un ordre spécifique (4 colonnes). <a href=\"%s\">Cliquez ici "
+"pour télécharger un échantillon</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:373
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"La clé de produit pour %s est expirée. Vous pouvez réactiver votre licence à "
+"partir de votre compte : <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s est en attente. Vous pouvez réactiver l'abonnement "
+"depuis le <a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre "
+"compte."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"L'abonnement pour %s a été annulé. Vous pouvez renouveler l'abonnement "
+"depuis le <a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre "
+"compte. Une nouvelle clé de licence vous sera envoyée par courriel dès que "
+"votre commande sera complétée."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s a expiré. Vous pouvez réactiver l'abonnement depuis le "
+"<a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre compte."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"L'abonnement pour %s a été suspendu. Vous pouvez réactiver l'abonnement "
+"depuis le <a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre "
+"compte."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"L'abonnement pour %s est toujours en traitement. Vous pouvez vérifier le "
+"statut de l'abonnement depuis le <a href=\"%s\" target=\"_blank\">tableau de "
+"bord</a> de votre compte."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s a été placé dans la corbeille et sera bientôt supprimé. "
+"Vous pouvez acheter un nouvel abonnement depuis le <a href=\"%s\" target="
+"\"_blank\">tableau de bord</a> de votre compte."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s ne peut être trouvé. Vous pouvez acheter un abonnement "
+"depuis le <a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre "
+"compte."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:461
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"La clé de licence pour %s ne peut être trouvée. Peut être avez-vous oublié "
+"de la saisir dans la page Réglages lors de l'installation de %s, ou bien la "
+"clé a été désactivée dans votre compte. Vous pouvez réactiver ou acquérir "
+"une clé de licence depuis le <a href=\"%s\" target=\"_blank\">tableau de "
+"bord</a> de votre compte client."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:472
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"La permission de téléchargement pour %s a été révoquée, certainement à cause "
+"de l'expiration de la clé de licence ou de l'abonnement. Vous pouvez "
+"réactiver ou acheter une clé de licence depuis le <a href=\"%s\" target="
+"\"_blank\">tableau de bord</a> de votre compte."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:483
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"%s N'a pas été activé. Accéder au plugin <a href=\"%s\" target=\"_blank"
+"\">page des paramètres</a> Et saisissez la clé de licence et le courrier "
+"électronique de licence pour activer %s."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:494
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Vous avez changé l'abonnement pour %s, aussi devez vous saisir votre "
+"nouvelle clé de licence API dans la page Réglages. La clé de licence doit "
+"être arrivée dans vos courriers entrants, autrement vous pouvez l'obtenir en "
+"vous identifiant dans le <a href=\"%s\" target=\"_blank\">tableau de bord</"
+"a> de votre compte."
+
+#: woocommerce-multi-carrier-shipping.php:25
+msgid "Multi Carrier Shipping"
+msgstr "Support multi d’expédition"
+
+#: woocommerce-multi-carrier-shipping.php:26
+msgid ""
+"Intuitive Rule Based Shipping Plug-in for WooCommerce. Set shipping rates "
+"based on rules based by Country, State, Post Code, Product Category,Shipping "
+"Class and Weight."
+msgstr ""
+"Règle intuitive Expédition Plug-in pour WooCommerce. les tarifs d'expédition "
+"fixés en fonction des règles basées par pays, Etat, code postal, catégorie "
+"de produit, Classe d'expédition et de poids."
+
+#. Plugin Name of the plugin/theme
+msgid "Multi-Carrier Shipping Plugin for WooCommerce"
+msgstr "Expédition des porteuses multiples Plugin pour WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.xadapter.com/product/woocommerce-table-rate-multi-carrier-"
+"shipping-plugin/"
+msgstr ""
+"https://www.Xadapter.com/Product/woocommerce-table-rate-Multi-Carrier-"
+"Shipping-plugin/"
+
+#. Description of the plugin/theme
+msgid ""
+"Intuitive Rule Based Multi-Carrier Shipping Plugin for WooCommerce. Set "
+"shipping rates based on rules based by Country, State, Post Code, Product "
+"Category,Shipping Class ,Weight , Shipping Company and Shipping Service."
+msgstr ""
+"La règle intuitive basée multi-porteuse expédition Plugin pour WooCommerce. "
+"La valeur taux fondés sur les règles de base par pays, État, Post Code, "
+"produit catégorie, classe, poids, navigation compagnie maritime et le "
+"Service d’expédition d’expédition."
+
+#. Author of the plugin/theme
+msgid "ExtensionHawk"
+msgstr "ExtensionHawk"
+
+#. Author URI of the plugin/theme
+msgid "https://www.xadapter.com/vendor/extensionhawk/"
+msgstr "https://www.Xadapter.com/Vendor/extensionhawk/"

@@ -1,0 +1,72 @@
+/*
+Theme Name:     uncode-child
+Description:    Uncode Child Theme
+Author:         Rounded Digital
+Template:       uncode
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2017 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Antipixel
+ * License URL: https://www.fontspring.com/licenses/antipixel/webfont
+ *
+ *
+ */
+
+.row.limit-width.row-parent.row-header {
+    /* background: red; */
+}
+.style-color-lxmt-bg.row-container {
+    /* background: red; */
+}
+
+
+
+@font-face {
+    font-family: 'serpentinebold_oblique';
+    src: url('fonts/serpentinebold_oblique/serpentine-boldoblique-webfont.woff2') format('woff2'),
+         url('fonts/serpentinebold_oblique/serpentine-boldoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'serpentinebolditalic';
+    src: url('fonts/serpentinebold_italic/33713_serpentinebolditalic-webfont.woff2') format('woff2'),
+         url('fonts/serpentinebold_italic/33713_serpentinebolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'enyo_slab_regularregular';
+    src: url('fonts/enyoslab_regular/enyo-slab_regular-webfont.eot');
+    src: url('fonts/enyoslab_regular/enyo-slab_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/enyoslab_regular/enyo-slab_regular-webfont.woff2') format('woff2'),
+         url('fonts/enyoslab_regular/enyo-slab_regular-webfont.woff') format('woff'),
+         url('fonts/enyoslab_regular/enyo-slab_regular-webfont.ttf') format('truetype'),
+         url('fonts/enyoslab_regular/enyo-slab_regular-webfont.svg#enyo_slab_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
